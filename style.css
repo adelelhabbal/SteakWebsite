@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.first-container {
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+.left-side {
+    width: 60%;
+    background-image: url("steak.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+.bg-text {
+    width: 40%;
+    /* background-color:rgba(0, 0, 0, 0.5) ;
+    border-radius: 40px; */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-40%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 15px;
+    color: orange;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+}
+
+.right-side h2 {
+    font-size: 2rem;
+    color: black;
+}
+
+.right-side h3 {
+    font-size: 0.85rem;
+    color: orange;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.right-side form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.right-side form input {
+    text-align: center;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.right-side form button {
+    background-color: orange;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.right-side form button:hover {
+    cursor: pointer;
+}
+
+.fine-print {
+    font-size: .5rem;
+}
